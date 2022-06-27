@@ -13,3 +13,9 @@ class Agenda:
                 '\nTelefone:',self.listaContatos[i].tel,'\n') #Lista objetos = print(self.listaContatos[i]) mas se quer os atributos 
 
     
+    def trocar_tel(self):
+        resp = input('Digite o seu Id: ')
+
+        for i in range(len(self.listaContatos)):
+            if resp == self.listaContatos[i].cod:
+                self.listaContatos[i].tel = input('Digite o novo telefone: ')
