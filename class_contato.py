@@ -13,10 +13,10 @@ class Contato:
         # self.tel = tel
         # self.nome = nome
 
-        self.cod = input('Digite o seu Código')  #input('Digite o seu Código') pode tbm
-        self.tel = input('Digite o seu Telefone') # Com input em baixo n coloca argumentos em cima 
-        self.nome = input('Digite o seu Nome')
+        self.cod = input('Digite o seu Código: ')  #input('Digite o seu Código') pode tbm
+        self.nome = input('Digite o seu Nome: ') # Com input em baixo n coloca argumentos em cima 
+        self.tel = input('Digite o seu Telefone: ')
 
-        print('Hello World  //  Objeto criado Heeeee')
+        print('Cadastro realizado')
 
         
