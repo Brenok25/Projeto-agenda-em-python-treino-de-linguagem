@@ -19,3 +19,11 @@ class Agenda:
         for i in range(len(self.listaContatos)):
             if resp == self.listaContatos[i].cod:
                 self.listaContatos[i].tel = input('Digite o novo telefone: ')
+
+    def trocar_mome(self):
+        resp = input('Digite o seu Id: ')
+
+        for i in range(len(self.listaContatos)):
+            if resp == self.listaContatos[i].cod:
+                self.listaContatos[i].nome= input('Digite o novo Nome ')
+
