@@ -8,15 +8,15 @@
 
 
 class Contato: 
-    def __init__(self): 
+    def __init__(self, cod, nome, tel, email): 
         # self.cod = cod  #input('Digite o seu Código') pode tbm
         # self.tel = tel
         # self.nome = nome
 
-        self.cod = input('Digite o seu Código: ')  #input('Digite o seu Código') pode tbm
-        self.nome = input('Digite o seu Nome: ') # Com input em baixo n coloca argumentos em cima 
-        self.tel = input('Digite o seu Telefone: ')
-
+        self.cod = cod  #input('Digite o seu Código') pode tbm
+        self.nome = nome # Com input em baixo n coloca argumentos em cima 
+        self.tel = tel
+        self.email = email
         print('Cadastro realizado')
 
         
