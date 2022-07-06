@@ -27,3 +27,9 @@ class Agenda:
             if resp == self.listaContatos[i].cod:
                 self.listaContatos[i].nome= input('Digite o novo Nome ')
 
+    def exclui_contato(self, cod):
+        for i in range(len(self.listaContatos)):
+            if cod == self.listaContatos[i].cod:
+                del self.listaContatos[i]
+            else:
+                print('Codigo de Contato não existe!')
